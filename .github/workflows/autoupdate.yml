@@ -23,7 +23,7 @@ on:
 jobs:
   autoupdate-fork:
     if: > 
-      startsWith(github.repository, 'asyncapi/') &&
+      startsWith(github.repository, 'ash17290/') &&
       (
         github.event_name == 'push' ||
         (
