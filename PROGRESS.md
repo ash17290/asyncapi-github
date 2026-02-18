@@ -1,0 +1,50 @@
+## Github Workflow Security Tightening Progress
+
+### Github workflows
+
+- [ ] [zizmor.yml](zizmor.yml)
+- [ ] [add-good-first-issue-labels.yml](.github/workflows/add-good-first-issue-labels.yml)
+- [ ] [automerge-for-humans-add-ready-to-merge-or-do-not-merge-label.yml](.github/workflows/automerge-for-humans-add-ready-to-merge-or-do-not-merge-label.yml)
+- [ ] [automerge-for-humans-merging.yml](.github/workflows/automerge-for-humans-merging.yml)
+- [ ] [automerge-for-humans-remove-ready-to-merge-label-on-edit.yml](.github/workflows/automerge-for-humans-remove-ready-to-merge-label-on-edit.yml)
+- [ ] [automerge-orphans.yml](.github/workflows/automerge-orphans.yml)
+- [ ] [automerge.yml](.github/workflows/automerge.yml)
+- [ ] [autoupdate.yml](.github/workflows/autoupdate.yml)
+- [ ] [bounty-program-commands.yml](.github/workflows/bounty-program-commands.yml)
+- [ ] [bump.yml](.github/workflows/bump.yml)
+- [ ] [global-remover.yml](.github/workflows/global-remover.yml)
+- [ ] [global-replicator.yml](.github/workflows/global-replicator.yml)
+- [ ] [help-command.yml](.github/workflows/help-command.yml)
+- [ ] [if-docker-pr-testing.yml](.github/workflows/if-docker-pr-testing.yml)
+- [ ] [if-go-pr-testing.yml](.github/workflows/if-go-pr-testing.yml)
+- [ ] [if-nodejs-pr-testing.yml](.github/workflows/if-nodejs-pr-testing.yml)
+- [ ] [if-nodejs-release.yml](.github/workflows/if-nodejs-release.yml)
+- [ ] [if-nodejs-version-bump.yml](.github/workflows/if-nodejs-version-bump.yml)
+- [ ] [issues-prs-notifications.yml](.github/workflows/issues-prs-notifications.yml)
+- [ ] [lint-pr-title.yml](.github/workflows/lint-pr-title.yml)
+- [ ] [notify-tsc-members-mention.yml](.github/workflows/notify-tsc-members-mention.yml)
+- [ ] [please-take-a-look-command.yml](.github/workflows/please-take-a-look-command.yml)
+- [ ] [release-announcements.yml](.github/workflows/release-announcements.yml)
+- [ ] [stale-issues-prs.yml](.github/workflows/stale-issues-prs.yml)
+- [ ] [transfer-issue.yml](.github/workflows/transfer-issue.yml)
+- [ ] [update-docs-on-docs-commits.yml](.github/workflows/update-docs-on-docs-commits.yml)
+- [ ] [update-maintainers-trigger.yaml](.github/workflows/update-maintainers-trigger.yaml)
+- [ ] [update-pr.yml](.github/workflows/update-pr.yml)
+- [ ] [validate-workflow-schema.yml](.github/workflows/validate-workflow-schema.yml)
+- [x] [welcome-first-time-contrib.yml](.github/workflows/welcome-first-time-contrib.yml) - permissions tightened and GH_TOKEN -> GITHUB_TOKEN so that pull_request_target is no longer required. [Test Issue](https://github.com/asyncapi-actions-test/asyncapi-github/issues/2)
+
+### Scripts
+
+- [ ] [Mailchimp scripts](.github/workflows/scripts/mailchimp/)
+  - htmlContent.js
+  - index.js
+  - package.json
+  - package-lock.json
+
+### Actions
+
+- [ ] [get-node-version-from-package-lock](.github/actions/get-node-version-from-package-lock/)
+  - action.yml
+  - README.md
+- [ ] [slackify-markdown](.github/actions/slackify-markdown/)
+  - action.yml
