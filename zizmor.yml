@@ -1,0 +1,6 @@
+rules:
+  excessive-permissions:
+    disable: false
+  dangerous-triggers:
+    disable: false
+  
